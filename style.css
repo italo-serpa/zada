@@ -1,0 +1,201 @@
+body {
+  background-color: lightgray;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.nav__logo {
+  width: 120px;
+  height: 50px;
+}
+
+.nav__bar {
+  width: 50px;
+}
+
+.inicio {
+  display: flex;
+}
+
+.inicio__texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+}
+
+.inicio__texto h1 {
+  font-size: 30px;
+  padding-bottom: 25px;
+}
+
+.inicio__texto p {
+  padding-bottom: 150px;
+}
+
+.inicio__imagem {
+  width: 800px;
+  animation: zada 2s infinite;
+}
+
+@keyframes zada {
+  0% {
+    transform: scaleX(1);
+  }
+  50% {
+    transform: scaleX(-1);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.objetivos {
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+}
+
+.objetivo1,
+.objetivo2,
+.objetivo3 {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.objetivo2 {
+  flex-direction: row-reverse;
+}
+
+.objetivos img {
+  width: 400px;
+  height: 200px;
+}
+
+.objetivos h2 {
+  font-size: 30px;
+}
+
+.missao {
+  display: flex;
+  padding-top: 100px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.missao h2 {
+  width: 230px;
+  font-size: 20px;
+}
+
+.missao img {
+  height: 600px;
+  width: 600px;
+}
+
+.produtos {
+    padding-top: 100px;
+}
+
+.produtos__destaque {
+  display: flex;
+    justify-content: space-around;
+}
+
+.produtos__destaque img {
+  width: 400px;
+}
+
+.produtos__destaque-texto {
+  display: flex;
+  flex-direction: column;
+    justify-content: center;
+}
+
+.produtos__destaque-texto h2 {
+  padding: 20px 0px 20px 0px;
+  font-size: 20px;
+}
+
+.slider {
+    display: flex;
+    padding-top: 100px;
+}
+
+.slider img {
+  width: 170px;
+  margin: 20px;
+}
+
+.atletas {
+    padding-top: 100px;
+}
+
+.atletas h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.atletas_div {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.atletas_divisor img {
+    width: 500px;
+}
+
+.atletas_divisor p {
+    padding: 40px;
+}
+
+.acao {
+    display: flex;
+    padding: 50px;
+}
+
+.acao__img {
+    width: 500px;
+    height: 500px;
+}
+
+.acao__options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.acao__options-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-left: 60px;
+}
+
+.acao__options-option img {
+    height: 50px;
+}
+
+.acao__options-option button {
+    background-color: greenyellow
+}
+
+.rodape {
+    height: 200px;
+    display: flex;
+    background-color: black;
+    color: wheat;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
